@@ -1,8 +1,51 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<title>Nina Carducci - Photographe freelance en Île de France</title>
+		<title>Nina Carducci - Photographe portraits et événementiel en Île de France</title>
 		<meta name="description" content="Site vitrine de la photographe freelance Nina Carducci">
+	<!-- Microdonnées conformes schema.org pour referencement local -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "ProfessionalService",
+			"jobTitle": "Photographe",
+			"name": "Nina Carducci",
+			"image": "https://dierwey.github.io/site-ninacarducci/assets/images/nina.webp",
+			"@id": "",
+			"url": "https://dierwey.github.io/site-ninacarducci/",
+			"telephone": "05 56 67 78 89",
+			"priceRange": "50€ to 400€",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"addressCountry": "FR"
+			},
+			"openingHoursSpecification": {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+				],
+				"opens": "10:00",
+				"closes": "19:00"
+			},
+			"sameAs": "https://www.instagram.com/ninacarducci.photo/?hl=fr" 
+		}
+		</script>
+	<!-- Referencement Facebook OpenGraph -->
+		<meta property="og:site_name" content="Nina Carducci" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://ninacarducci.github.io/" />
+		<meta property="og:title" content="Nina Carducci – Photographe portraits et événementiel en Île de France" />
+		<meta property="og:description" content="Site vitrine de la photographe freelance Nina Carducci" />
+		<meta property="og:image" content="https://ninacarducci.github.io/site-ninacarducci/assets/images/nina.webp" />
+	<!-- Referencement Twitter Card -->
+	 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="./assets/style.css">
@@ -141,7 +184,7 @@
 					<div class="form-container">
 						<h2>Une question ? Une demande de devis ?</h2>
 						<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-						<form action="" method="post">
+						<form action="" method="post" role="form">
 							<label for="nom">Nom</label>
 							<input type="text" name="nom" id="nom">
 							<label for="email">Email</label>
