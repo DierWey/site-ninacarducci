@@ -254,6 +254,15 @@ input[type="submit"] {
 h2 {
   font-size: calc(1.3rem + 0.6vw);
 }
+.carousel-control-background-icon {
+	height: 3em;
+	width: 3em;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 @media (min-width: 1200px) {
   h2 {

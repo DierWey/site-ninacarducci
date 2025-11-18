@@ -66,9 +66,9 @@
 		<script src="./assets/scripts.js"></script>
 	</head>
 	<body>
-		<header class="top-header" role="banner">
+		<header class="top-header">
 			<h1 class="name">Nina Carducci</h1>
-			<nav class="nav" role="navigation">   
+			<nav class="nav">   
 				<ul>
 					<li><a href="#about">À propos</a></li>
 					<li><a href="#gallery">Galerie</a></li>
@@ -78,8 +78,8 @@
 				</ul>
 			</nav>
 		</header>
-		<main role="main">
-			<section id="header" role="region">
+		<main>
+			<section id="header">
 				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 					<div class="carousel-indicators">
 						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -97,17 +97,21 @@
 							<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" alt="...">
 						</div>
 					</div>
-					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Previous</span>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" aria-hidden="true">
+						<div class="carousel-control-background-icon">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</div>
 					</button>
 					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Next</span>
+						<div class="carousel-control-background-icon">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</div>
 					</button>
 				</div>
 			</section>
-			<section id="about" role="region">
+			<section id="about">
 				<div class="picture left">
 					<img src="./assets/images/nina.webp" alt="Portrait en buste de NinaCarducci">
 				</div>
@@ -118,23 +122,23 @@
 						C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 				</div>
 			</section>
-			<section id="gallery" role="region">
+			<section id="gallery">
 				<h2 class="title">Portfolio</h2>
 				<div class="container py-3">
 					<div class="gallery" style="display: none">
-						<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Photo d'ambiance d'un concert pop-rock"/>
+						<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Photo d'ambiance d'un concert pop-rock sous lumière rouge"/>
 						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="Portrait en buste d'un jeune cadre d'entreprise"/>
-						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Femme souriante en entreprise"/>
+						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Femme souriante à son travail"/>
 						<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="Mains de deux mariés sur le point de se joindre"/>
-						<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Visage d'un homme d'origine africaine les yeux fermés"/>
-						<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="Couple mixte de jeunes mariés"/>
+						<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="Gros plan sur le visage serein et les yeux fermés d'un homme d'origine africaine"/>
+						<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="Photo de mariage d'un couple mixte en extérieur"/>
 						<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="Portrait en buste d'une femme"/>
 						<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="Portrait en buste d'un chanteur lors d'un concert"/>
 						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="Rire d'une jeune femme en entreprise"/>
 					</div>
 				</div>
 			</section>
-			<aside class="quote" role="complementary">
+			<aside class="quote">
 				<figure>
 					<blockquote>
 						<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
@@ -142,7 +146,7 @@
 					<figcaption class="quote__author">- Richard Avedon</figcaption>
 				</figure>
 			</aside>
-			<section id="services" role="region">
+			<section id="services">
 				<h2 class="title">Mes services</h2>
 				<div class="container">
 					<div class="service">
@@ -178,7 +182,7 @@
 					</div>
 				</div>
 			</section>
-			<aside class="quote" role="complementary">
+			<aside class="quote">
 				<figure>
 					<blockquote>
 						<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
@@ -186,7 +190,7 @@
 					<figcaption class="quote__author">- Richard Avedon</figcaption>
 				</figure>
 			</aside>
-			<section id="contact" role="region">
+			<section id="contact">
 				<div class="container">
 					<div class="form-container">
 						<h2>Une question ? Une demande de devis ?</h2>
